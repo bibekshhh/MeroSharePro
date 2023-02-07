@@ -3,8 +3,8 @@ import axios from 'axios'
 async function getAuthToken() {
     let data = JSON.stringify({
         "clientId": 130,
-        "username": "552121",
-        "password": "Bhandari1104#"
+        "username": "",
+        "password": ""
     });
 
     try {
